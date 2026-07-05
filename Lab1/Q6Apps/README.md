@@ -8,8 +8,8 @@ The original lab lists **3 numbered items** for Question 6, not 4. Item 1 actual
 
 | Lab item | Requirement | Component | Type |
 |---|---|---|---|
-| **1** (part 1) | Employee info entry screen: full name, age, occupation, specialization + Update button showing a success message | `EmployeeForm.tsx` | Component, Props |
-| **1** (part 2) | Program to sum the first digit and the last digit of a number | `SumFirstLast.tsx` | Component, State |
+| **1** | Employee info entry screen: full name, age, occupation, specialization + Update button showing a success message | `EmployeeForm.tsx` | Component, Props |
+| **1** | Program to sum the first digit and the last digit of a number | `SumFirstLast.tsx` | Component, State |
 | **2** | Program to find the minimum of three numbers | `MinOfThree.tsx` | Component, State |
 | **3** | Program that displays the Hailstone sequence for `n > 0` — step **a.** even → divide by 2, step **b.** odd → ×3 + 1, step **c.** repeat until `n = 1` | `Hailstone.tsx` | Component, State |
 
