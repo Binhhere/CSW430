@@ -4,7 +4,6 @@ import { View, Text, TextInput, Button, Alert } from 'react-native';
 export default function Hailstone() {
   const [n, setN] = useState('');
   const [seq, setSeq] = useState<number[]>([]);
-//
   const onGen = () => {
     let x = Number(n);
     if (!Number.isInteger(x) || x <= 0) {
