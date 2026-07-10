@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {View, Text, TextInput, Button} from "react-native";
-// 
 export default function MinOfThree() {
     const [a, setA] = useState("");
     const [b, setB] = useState("");
