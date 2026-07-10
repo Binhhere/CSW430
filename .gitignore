@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# React Native build and IDE output
+android/.gradle/
+android/app/build/
+ios/Pods/
+*.log
+
+# IDE and system files
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db

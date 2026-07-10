@@ -1,0 +1,14 @@
+# Node.js dependencies and local environment values
+node_modules/
+.env
+
+# React Native and IDE build output
+android/.gradle/
+android/app/build/
+ios/Pods/
+*.log
+
+# Visual Studio and .NET build output
+.vs/
+bin/
+obj/

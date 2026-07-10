@@ -1,56 +1,22 @@
-# 📱 CSW430 — Mobile Programming
+# CSW430 - Mobile Programming
 
-Repository for assignments, labs and projects of the **Mobile Programming (CSW430)** course.
+Coursework repository for CSW430 Mobile Programming.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-</p>
+## Labs
 
----
+| Lab | Topics | Details |
+| --- | --- | --- |
+| [Lab 1](./Lab1) | GitHub, Expo, React Native CLI, publishing, props, and state | [Lab 1 README](./Lab1/README.md) |
+| [Lab 2](./Lab2) | Node.js API and React Native interfaces | [Lab 2 README](./Lab2/README.md) |
 
-## 📂 Repository Structure
+## Repository layout
 
-| Directory | Content |
-|---|---|
-| [`Lab1/`](./Lab1) | Getting familiar with Github, development environment, Expo CLI, React Native CLI, publishing app, components with Props & State |
-
-> More labs will be added upon completion.
-
----
-
-## 🛠️ Technologies Used
-
-- **React Native** — Framework for building cross-platform mobile applications
-- **Expo** — Toolchain for fast app development & building
-- **Metro Bundler** — JavaScript bundler for React Native
-- **Android Studio / Emulator** — Environment for testing Android applications
-- **Git & GitHub** — Source code management and version control
-
----
-
-## 🚀 Getting Started
-
-Clone the repository to your machine:
-
-```bash
-git clone https://github.com/Binhhere/CSW430.git
-cd CSW430
+```text
+CSW430/
+├── Lab1/   # Lab 1 projects and report
+└── Lab2/   # Lab 2 projects and report
 ```
 
-Navigate to each lab directory to view detailed setup instructions (each lab has its own `README.md`).
+## Author
 
----
-
-## 👤 Author
-
-**Binhhere**
-Student in Mobile Programming course — CSW430
-
----
-
-## 📄 License
-
-This repository is for educational purposes.
+Binhhere - CSW430 Mobile Programming coursework.
