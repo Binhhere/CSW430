@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {View, Text, TextInput, Button} from "react-native";
-// 
 export default function SumFirstLast() {
     const[num, setNum] = useState("");
     const[sum, setSum] = useState<number | null>(null);
