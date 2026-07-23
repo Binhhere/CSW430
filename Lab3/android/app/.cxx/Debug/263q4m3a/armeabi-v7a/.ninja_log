@@ -1,0 +1,22 @@
+# ninja log v5
+4	74	0	D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/armeabi-v7a/CMakeFiles/cmake.verify_globs	6d1e41a456135c60
+666	7174	8064948031350254	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/States.cpp.o	7c246f7a88c58f0
+126	7197	8064948031560981	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f46d0f1d4ddd70ad7d326c2476eb9064/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o	bac377e82b0702cd
+643	7927	8064948038876334	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp.o	9d887147d77a67d1
+69	8010	8064948039657549	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/66fa09119f4d5da4d245c3b32051c6ff/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o	a1ee758495842c62
+178	8914	8064948048612233	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/2bf419e50550c71a79594f2eb9b6ac53/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o	fb413d950c0a5170
+233	9025	8064948049500140	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o	402e7a81a0518203
+13	9890	8064948058443558	CMakeFiles/appmodules.dir/OnLoad.cpp.o	770c72e33277ee76
+488	10004	8064948059574042	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/Props.cpp.o	12e2d0a77a410098
+26	10413	8064948063785902	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/660c9a2d1a614ca122e467ed94d1ddd6/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o	9b6e3f7128485bf5
+147	10683	8064948066500084	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f46d0f1d4ddd70ad7d326c2476eb9064/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o	30283ec3b00eb49
+380	10862	8064948068307961	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp.o	55ac6b976b4ab540
+349	10925	8064948068918772	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o	3d6221383cfd9cbf
+55	10988	8064948069371850	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f46d0f1d4ddd70ad7d326c2476eb9064/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o	acb82f442db928c0
+83	11614	8064948075771371	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/2c456a5055ca9e111dafb9fd95ad87c6/react/renderer/components/safeareacontext/ComponentDescriptors.cpp.o	bfb266c1e66f6165
+40	12247	8064948082161618	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/a305776d968072244ec0fcee97b21d8d/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o	6d6e2237cea819f0
+2	12406	8064948083482874	CMakeFiles/appmodules.dir/D_/school/CSW430/Lab3/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	dfac9b208186e146
+12248	12407	8064948083668162	D:/school/CSW430/Lab3/android/app/build/intermediates/cxx/Debug/263q4m3a/obj/armeabi-v7a/libreact_codegen_safeareacontext.so	4f50ce1beab1d70d
+12407	12649	8064948086231273	D:/school/CSW430/Lab3/android/app/build/intermediates/cxx/Debug/263q4m3a/obj/armeabi-v7a/libappmodules.so	70c502612637ded6
+2	24	0	D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/armeabi-v7a/CMakeFiles/cmake.verify_globs	6d1e41a456135c60
+2	18	0	D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/armeabi-v7a/CMakeFiles/cmake.verify_globs	6d1e41a456135c60

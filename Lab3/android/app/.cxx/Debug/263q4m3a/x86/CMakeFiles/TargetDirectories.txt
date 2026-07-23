@@ -1,0 +1,9 @@
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/CMakeFiles/appmodules.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/CMakeFiles/edit_cache.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/CMakeFiles/rebuild_cache.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/RNVectorIconsSpec_autolinked_build/CMakeFiles/edit_cache.dir
+D:/school/CSW430/Lab3/android/app/.cxx/Debug/263q4m3a/x86/RNVectorIconsSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
