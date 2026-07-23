@@ -1,97 +1,173 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# CSW430 - Mobile Programming Labs
 
-# Getting Started
+Repository for the **CSW430 Mobile Programming** course assignments.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+The repository contains three lab folders covering Git/GitHub, React Native project setup, API development, interface exercises, product management screens, and Android build output.
 
-## Step 1: Start Metro
+## Repository structure
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+```text
+CSW430/
+├── Lab1/
+├── Lab2/
+├── Lab3/
+├── .gitignore
+└── README.md
+```
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Lab overview
 
-```sh
-# Using npm
+### Lab 1 - React Native fundamentals
+
+Topics covered:
+
+- GitHub repository setup and source control workflow
+- Expo CLI and React Native CLI environment setup
+- Creating and running React Native applications
+- Components, props, and state
+- Building Android APK and AAB files
+- Small exercises using forms and calculations
+
+### Lab 2 - APIs and React Native exercises
+
+Topics covered:
+
+- ASP.NET MVC Web API
+- Node.js API
+- Login screen interface
+- Personal income tax calculator
+- Calculator application
+
+The exercises in Lab 2 are organized as separate projects where appropriate.
+
+### Lab 3 - Product management application
+
+Lab 3 is a React Native application containing the following screens:
+
+- **Product List** - displays products using `FlatList`
+- **Add Product** - creates a new product through the API
+- **Search Products** - searches and displays matching products
+- **Product Detail** - retrieves and displays one product
+- **Bottom Navigation** - connects the four screens using React Native Paper
+
+Main Lab 3 structure:
+
+```text
+Lab3/
+├── App.tsx
+├── Products/
+│   ├── Products.js
+│   ├── Product_Add.js
+│   ├── Product_Search.js
+│   └── Product_Detail.js
+├── android/
+├── ios/
+├── package.json
+└── README.md
+```
+
+## Technologies
+
+- React Native CLI
+- React Native Paper
+- React Native Safe Area Context
+- JavaScript / TypeScript
+- Node.js
+- ASP.NET Web API
+- Android Studio and Android Emulator
+- Git and GitHub
+
+## Run Lab 3
+
+### Requirements
+
+Install the following before running the project:
+
+- Node.js
+- JDK
+- Android Studio
+- Android SDK
+- An Android emulator or physical Android device
+
+### Install dependencies
+
+```bash
+cd Lab3
+npm install
+```
+
+### Start Metro
+
+Open the first terminal in the `Lab3` directory:
+
+```bash
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
-## Step 2: Build and run your app
+Keep this terminal running.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### Run Android
 
-### Android
+Open a second terminal in the same `Lab3` directory:
 
-```sh
-# Using npm
+```bash
+adb reverse tcp:8081 tcp:8081
 npm run android
-
-# OR using Yarn
-yarn android
 ```
 
-### iOS
+If another React Native project is already using Metro port `8081`, stop its Node process before starting Lab 3.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+On Windows:
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+```bash
+taskkill /F /IM node.exe
 ```
 
-Then, and every time you update your native dependencies, run:
+Then restart Metro from the `Lab3` folder:
 
-```sh
-bundle exec pod install
+```bash
+npm start -- --reset-cache
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## Git notes
 
-```sh
-# Using npm
-npm run ios
+Generated dependencies and build artifacts are intentionally excluded from version control, including:
 
-# OR using Yarn
-yarn ios
+- `node_modules/`
+- Android Gradle cache
+- Android `build/` directories
+- APK build output
+- iOS Pods and build output
+- Environment files
+- IDE-specific files
+
+Do not commit files inside paths such as:
+
+```text
+Lab3/android/app/build/
+Lab3/android/build/
+Lab3/node_modules/
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+If build artifacts were accidentally staged, remove them from the Git index without deleting local files:
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+```bash
+git rm -r --cached --ignore-unmatch Lab3/android/app/build
+git rm -r --cached --ignore-unmatch Lab3/android/build
+git rm -r --cached --ignore-unmatch Lab3/android/.gradle
+git rm -r --cached --ignore-unmatch Lab3/node_modules
+```
 
-## Step 3: Modify your app
+Then commit and push again:
 
-Now that you have successfully run the app, let's make changes!
+```bash
+git add .
+git commit -m "Clean generated files and update documentation"
+git push
+```
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## Author
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+**Binhhere**
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Course repository: `CSW430`
